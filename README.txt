@@ -1,31 +1,16 @@
-THE LOOK ASSEMBLED — PERSONAL AI STYLIST STUDIO
-Starter package v0.1 | Separate new project
+THE LOOK ASSEMBLED — PERSONAL STUDIO · SWEEP 1
 
-WHAT WORKS:
-- Responsive mocha-themed navigation and eight starter screen routes
-- Closet and inspiration photo import (up to 15 per batch, resized)
-- Rename and delete starter photo entries
-- Local browser storage and export of starter data
-- Style DNA text and Style Dial stored locally
+WHAT'S INCLUDED
+Responsive mocha-and-champagne-gold 8-screen app with homepage editorial imagery, 5-icon mobile navigation, working closet and inspiration uploads, item editing and favorites, categories, search, bulk delete, inspiration Crop & Focus, Style DNA editing, styling brief, collection creation, photo backup export, and clearly labeled placeholders for AI styling and try-on.
 
-NOT YET IMPLEMENTED:
-- Real AI outfit generation, stylist reference retrieval, voice feedback
-- Virtual try-on, body-profile analysis, saved-look collections
-- User accounts, cloud synchronization, scalable photo storage
-- Pixel-perfect approved imagery/layouts (approved image assets needed)
+IMPORTANT
+This is a local-first browser-storage release. AI styling, AI photo analysis, AI image generation, and virtual try-on are NOT connected. Collections do not yet attach AI looks. The reference imagery is cropped from approved design comps and may require further image refinement. This is not claimed to be pixel-perfect.
 
-IMPORTANT:
-- This is NOT your old Outfit Roulette app and contains no existing photos.
-- DO NOT replace files in the original Outfit Roulette repository or Workers project.
-- Local browser data is specific to the browser and origin. This starter is not appropriate for bulk importing 700+ photos.
-- Use Export Starter Data regularly. There is no restore button in this initial starter.
-- Do not use for sensitive personal photos until secure cloud storage and privacy controls are implemented.
+SAFE INSTALL / PREVIEW
+Upload all files in this folder together to a separate GitHub Pages preview location or use a local HTTP server. Do not replace the current live site until you have previewed the upgrade. A content:// file preview may fail to resolve the JPG files.
 
-DEPLOY AS A NEW GITHUB REPOSITORY:
-1. Create a new PUBLIC repository named the-look-assembled-personal-studio (or your preferred new name).
-2. Upload index.html and manifest.webmanifest from this ZIP into the new repository root and commit.
-3. In repository Settings > Pages, select Deploy from a branch, main, /(root), then Save.
-4. Wait for GitHub Pages to publish its separate URL. Open the new URL in Chrome.
-5. Keep your existing Outfit Roulette app and its repository unchanged.
+DATA
+The same localStorage key as the earlier starter is retained: tla-personal-studio-starter-v1. Existing closet and inspiration images remain accessible on the same browser and site origin. A different URL origin (including file:// vs https://) has separate browser storage. Export data before any major upgrade. Never clear browser data to update.
 
-GitHub Pages serves the starter as a static site. Real AI functionality will require a secure backend and likely paid API services. GitHub Pages publication is publicly accessible; do not upload personal/private data to the repository.
+LIMITATIONS
+Image storage uses localStorage and is not suitable for hundreds of high-resolution photos; a proper database/sync service is the next engineering step. Category removal reassigns items to Uncategorized. Cropping uses centered ratios. No cloud synchronization. This release has not been tested on your specific Galaxy browser.
