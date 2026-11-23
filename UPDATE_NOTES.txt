@@ -1,0 +1,9 @@
+The Look Assembled — Homepage Tile Fidelity Pass
+
+Fix: six original portrait feature tiles now display without cropping their embedded titles, on both desktop and mobile. Added accessible button names and visible keyboard focus.
+
+No change to localStorage key, closet records, inspiration photos, saved looks, app logic, or AI availability.
+
+Upload the contents of this ZIP into the GitHub repository root (not the ZIP itself). Existing files can be replaced. Do not clear browser data. Export your existing app data first.
+
+This is a focused visual correction, not the completed eight-screen redesign.
