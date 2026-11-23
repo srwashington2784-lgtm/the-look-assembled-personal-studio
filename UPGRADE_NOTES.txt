@@ -1,0 +1,11 @@
+THE LOOK ASSEMBLED — EDITORIAL REFINEMENT PASS
+
+Based on user-uploaded GitHub repository ZIP.
+
+Changes: page-specific editorial banners using existing image assets; enhanced desktop and mobile styling; removed duplicate feature tile labels; refined typography, contrast and spacing.
+
+Existing application JavaScript, data storage key, and feature workflows retained. AI services are not connected.
+
+IMPORTANT: This is an incremental visual refinement, NOT a pixel-perfect reproduction of eight approved mockups. Current banner images reuse existing tile crops and will need dedicated licensed assets for a final finish.
+
+Deployment: Back up data using the app export first; upload index.html and images from this folder to repository root. Do not clear browser storage.
