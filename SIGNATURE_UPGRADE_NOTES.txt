@@ -1,0 +1,9 @@
+THE LOOK ASSEMBLED — SIGNATURE EDITION / 8-SCREEN LAYOUT UPGRADE
+
+Updated: My Virtual Closet, Inspiration Library, My Style DNA, Virtual Try-On, Saved Looks; retains the previously updated Home, Style My Day, and Three-Look Results.
+
+Existing browser localStorage key remains tla-personal-studio-starter-v1. The update does not delete saved photos or require clearing browser data.
+
+IMPORTANT: AI styling and image try-on are not connected. Reference images in try-on are illustrative, not generated results. Original screenshot mockups are design references, not used as flattened page backgrounds. Some reference artwork is not available as separate usable assets, so exact pixel matching is not claimed.
+
+Before deployment: export your existing data using Export My Data, extract ZIP, upload the files into repository ROOT, commit, and allow GitHub Pages to publish. No browser clearing or app reinstall.
